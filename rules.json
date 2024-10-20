@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "regexSubstitution": "https://new.reddit.com\\1"
+            }
+        },
+        "condition": {
+            "regexFilter": "^https://www\\.reddit\\.com(.*)$",
+            "resourceTypes": ["main_frame"]
+        }
+    }
+]
